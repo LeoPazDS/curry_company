@@ -154,7 +154,7 @@ st.sidebar.markdown("""---""")
 st.sidebar.markdown('## Selecione uma data limite')
 values = st.sidebar.slider(
     'Até qual valor',
-    value=pd.datetime(2022, 4, 13),
+    value=pd.datetime(2022, 4, 10),
     min_value=pd.datetime(2022, 2, 11),
     max_value=pd.datetime(2022, 4, 13),
     format='DD-MM-YYYY')

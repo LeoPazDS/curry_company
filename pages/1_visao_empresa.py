@@ -170,8 +170,8 @@ st.sidebar.markdown("""---""")
 st.sidebar.markdown('### Powered by CDS')
 
 #Filtro de data
-linhas_selecionadas = df1['Order_Date'] < values
-df1 = df1.loc[linhas_selecionadas, :]
+#linhas_selecionadas = df1['Order_Date'] < values
+#df1 = df1.loc[linhas_selecionadas, :]
 
 #Filtro de transito
 
